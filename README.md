@@ -1,35 +1,36 @@
 A UV project for SYS3062 at the University of Virginia! (An Easy Install, I hope...)
 
-First, clone this git repo onto your machine with the instructions below
+## Getting Started
 
-```markdown
-To get a local copy of this project up and running, follow these steps.
+Follow these steps to set up the project and run the software package.
 
-### Prerequisites
+### 1. Install `uv`
+This project uses `uv` to manage Python dependencies automatically. If you don't have it, install it first:
 
-Ensure you have Git installed on your local machine.
-* **Windows/Mac/Linux:** [Download Git](https://git-scm.com/downloads)
+* **macOS / Linux:**
+    ```bash
+    curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
+    ```
+* **Windows:**
+    ```powershell
+    powershell -c "irm [https://astral.sh/uv/install.ps1](https://astral.sh/uv/install.ps1) | iex"
+    ```
+*(You may need to restart your terminal after installing)*
 
-### Cloning the Repository
+### 2. Clone and Run
+You do not need to manually install libraries. Just clone the repo and tell `uv` to run the main script.
 
-1.  **Open your terminal** (Command Prompt, PowerShell, or Terminal).
-2.  **Navigate** to the directory where you want to store the project.
-3.  **Run the clone command** using the HTTPS URL:
-
+1.  **Clone the repository:**
     ```bash
     git clone [https://github.com/username/repository-name.git](https://github.com/username/repository-name.git)
-    ```
-
-4.  **Move into the project directory**:
-
-    ```bash
     cd repository-name
     ```
+
+2.  **Run the application:**
+    ```bash
+    uv run main.py
+    ```
+
+**Note:** The first time you run this command, `uv` will automatically create a virtual environment and download all necessary dependencies. Subsequent runs will be instant.
 ```
 
-After doing those steps, then type this in!
-pip install uv
-uv run main.py
-
-After the install is complete (which should be fast with uv)
-""
