@@ -43,6 +43,8 @@ Open VS Code, go to **File > Open Folder...**, and select the `repository-name` 
 
 ### 2. Install the Python Extension
 If you haven't already, click the **Extensions** icon (boxes on the left) and install the **Python** extension by Microsoft.
+While you are in the Extensions panel, you can install the extension **UV Wingman** to make your life easier if you like
+easier package management, althrough this is optional.
 
 ### 3. Select the Correct Interpreter
 VS Code needs to know where your installed libraries (like numpy or pandas) are.
@@ -65,3 +67,4 @@ You now have two ways to run your code:
 1.  **The "Official" Way:** Type `uv run main.py` in the terminal. This is 100% reliable and ensures dependencies are synced.
 2.  **The "VS Code" Way:** Click the **Play Button** (▶) in the top right. This works great for quick testing *if* you completed Step 3 correctly.
 ```
+
