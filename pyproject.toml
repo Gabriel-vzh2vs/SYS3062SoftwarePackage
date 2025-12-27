@@ -1,0 +1,24 @@
+[project]
+name = "SYS3062SetupPackage"
+version = "2025.12.26"
+description = "This is a package to be used with UV!"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+	"monaco",
+	"numpy",
+	"statsmodels",
+	"scipy",
+	"matplotlib",
+	"seaborn",
+	"pymc",
+	"arviz",
+	"pytensor",
+	"BPTK_py",
+	"simpy",
+	"salabim",
+	"mesa",
+	"ciw",
+	"distfit",
+	"salib",
+]
