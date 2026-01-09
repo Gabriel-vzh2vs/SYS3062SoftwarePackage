@@ -5,7 +5,6 @@ description = "This is a package to be used with UV!"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-	"monaco",
 	"numpy",
 	"statsmodels",
 	"scipy",
@@ -14,7 +13,6 @@ dependencies = [
 	"pymc",
 	"arviz",
 	"pytensor",
-	"BPTK_py",
 	"simpy",
 	"salabim",
 	"mesa",
